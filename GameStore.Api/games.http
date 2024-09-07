@@ -1,0 +1,19 @@
+
+GET http://localhost:5236
+
+###
+GET http://localhost:5236/games
+
+###
+GET http://localhost:5236/games/1
+
+###
+POST http://localhost:5236/games
+Content-Type: application/json
+
+{
+  "name": "Zelda",
+  "genre": "Kids and Family",
+  "price": 10.99,
+  "releaseDate": "2020-01-01"
+}
